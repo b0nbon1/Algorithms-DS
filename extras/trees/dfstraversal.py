@@ -19,9 +19,10 @@ def depthFirstValues(root):
 
 def depthFirstValuesRecurse(root):
   if not root: return []
-  leftValues = depthFirstValuesRecurse(root.left)
-  rightValue = depthFirstValuesRecurse(root.right)
-  return [ root.val ] + leftValues + rightValue
+  print(root.val)
+  depthFirstValuesRecurse(root.left)
+  depthFirstValuesRecurse(root.right)
+  # return [ root.val ] + leftValues + rightValue
 
 
 a = Node('a')
@@ -43,4 +44,4 @@ c.right = f
 #  / \     \
 # d   e     f
 
-print(depthFirstValues(a)); 
+print(depthFirstValuesRecurse(a)); 

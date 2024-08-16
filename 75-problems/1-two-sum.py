@@ -13,4 +13,3 @@ class Solution:
             else:
                 # if diff doesn't exists, store the current num
                 store[nums[i]] = i
-                
