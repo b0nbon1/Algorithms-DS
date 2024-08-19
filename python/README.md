@@ -1,6 +1,6 @@
-# Golang Algorithms and Data Structures
+# Python Algorithms and Data Structures
 
-This repository contains Golang based examples of many
+This repository contains Python based examples of many
 popular algorithms and data structures.
 
 _☝ Note: that this project is meant to be used for learning and researching purposes
@@ -19,17 +19,17 @@ the data.
 
 `B` - Beginner, `A` - Advanced
 
-- [ ] `B` [Arrays](src/data-structures/arrays)
-- [ ] `B` [Linked List](src/data-structures/linked-list)
-- [ ] `B` [Doubly Linked List](src/data-structures/doubly-linked-list)
-- [ ] `B` [Queue](src/data-structures/queue)
-- [ ] `B` [Stack](src/data-structures/stack)
-- [ ] `B` [Hash Map](src/data-structures/hash-map)
-- [ ] `B` [Heap](src/data-structures/heap) - max and min heap versions
-- [ ] `B` [Priority Queue](src/data-structures/priority-queue)
-- [ ] `A` [Trie](src/data-structures/trie)
+- [x] `B` [Arrays](src/data-structures/arrays)
+- [x] `B` [Linked List](src/data-structures/linked-list)
+- [x] `B` [Doubly Linked List](src/data-structures/doubly-linked-list)
+- [x] `B` [Queue](src/data-structures/queue)
+- [x] `B` [Stack](src/data-structures/stack)
+- [x] `B` [Hash Map](src/data-structures/hash-map)
+- [x] `B` [Heap](src/data-structures/heap) - max and min heap versions
+- [x] `B` [Priority Queue](src/data-structures/priority-queue)
+- [x] `A` [Trie](src/data-structures/trie)
 - [ ] `A` [Tree](src/data-structures/tree)
-  - [ ] `A` [Binary Search Tree](src/data-structures/tree/binary-search-tree.ipynb)
+  - [x] `A` [Binary Search Tree](src/data-structures/tree/binary-search-tree.ipynb)
   - [ ] `A` [AVL Tree](src/data-structures/tree/avl-tree)
   - [ ] `A` [Red-Black Tree](src/data-structures/tree/red-black-tree)
   - [ ] `A` [Segment Tree](src/data-structures/tree/segment-tree) - with min/max/sum range queries examples
@@ -48,9 +48,9 @@ a set of rules that precisely define a sequence of operations.
 ### Algorithms by Topic
 
 - **Math**
-  - [ ] `B` [Bit Manipulation](src/algorithms/math/bits) - set/get/update/clear bits, multiplication/division by two, make negative etc.
-  - [ ] `B` [Factorial](src/algorithms/math/factorial)
-  - [ ] `B` [Fibonacci Number](src/algorithms/math/fibonacci) - classic and closed-form versions
+  - [x] `B` [Bit Manipulation](src/algorithms/math/bits) - set/get/update/clear bits, multiplication/division by two, make negative etc.
+  - [x] `B` [Factorial](src/algorithms/math/factorial)
+  - [x] `B` [Fibonacci Number](src/algorithms/math/fibonacci) - classic and closed-form versions
   - [ ] `B` [Primality Test](src/algorithms/math/primality-test) (trial division method)
   - [ ] `B` [Euclidean Algorithm](src/algorithms/math/euclidean-algorithm) - calculate the Greatest Common Divisor (GCD)
   - [ ] `B` [Least Common Multiple](src/algorithms/math/least-common-multiple) (LCM)
